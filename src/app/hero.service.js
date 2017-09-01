@@ -17,7 +17,7 @@ var HeroService = (function () {
         var _this = this;
         return new Promise(function (resolve) {
             // Simulate server latency with 2 second delay
-            setTimeout(function () { return resolve(_this.getHeroes()); }, 2000);
+            setTimeout(function () { return resolve(_this.getHeroes()); }, 3000);
         });
     };
     return HeroService;
